@@ -73,7 +73,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items: center;
+    align-items: begin;
     padding: 2.5%;
     border-bottom: 3px solid black;
 
@@ -85,6 +85,30 @@ body {
         font-variation-settings: "wdth" 100;
         text-align: justify;
     }
+
+    h2 {
+        font-family: "Noto Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+        font-variation-settings: "wdth" 100;        
+    }
+
+    ol {
+        font-family: "Noto Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+        font-variation-settings: "wdth" 100;
+    }
+}
+
+.listas {
+    padding: 1.75%;
+    padding-top: 0.75%;
+    border: 5px solid gray;
+    border-radius: 10px;
+    background-color: lightgray;
 }
 
 .familia {
