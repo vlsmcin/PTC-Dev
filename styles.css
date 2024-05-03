@@ -14,11 +14,28 @@
     justify-content: space-around;
 }
 
+.sum {
+    border: 5px;
+    color: darkblue;
+    padding: 1%;   
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 350;
+    font-style: normal;
+    font-size: 30px;
+    font-variation-settings: "wdth" 100;
+}
+
+.sum:hover {
+    background-color: rgb(20, 79, 102);
+    border-radius: 60%;
+}
+
 .social-media {
     margin-top: 5%;
     margin-bottom: 5%;
-    width: 75px;
-    height: 75px;
+    width: 50px;
+    height: 50px;
 }
 
 body {
@@ -181,5 +198,6 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding-bottom: 2.5%;
+    align-items: center;
+    padding-bottom: 1.5%;
 }
